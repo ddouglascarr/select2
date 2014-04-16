@@ -2982,7 +2982,7 @@ the specific language governing permissions and limitations under the Apache Lic
             }
 
             if(enableChoice){
-              choice.find(".select2-search-choice-close")
+              choice
                   .on("mousedown", killEvent)
                   .on("click dblclick", this.bind(function (e) {
                   if (!this.isInterfaceEnabled()) return;
